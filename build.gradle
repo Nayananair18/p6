@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'maven-publish'
+}
+
+application {
+    mainClass ='com.prog2.maven.prog2._example_jar.App'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
+
+group = 'com.prog2.maven'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}

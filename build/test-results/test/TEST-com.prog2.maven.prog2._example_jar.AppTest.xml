@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.prog2.maven.prog2._example_jar.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-18T05:30:13.309Z" hostname="NAYANA-PC" time="0.009">
+  <properties/>
+  <testcase name="testApp" classname="com.prog2.maven.prog2._example_jar.AppTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
